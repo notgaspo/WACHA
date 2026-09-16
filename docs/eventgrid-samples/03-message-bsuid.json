@@ -1,0 +1,19 @@
+[{
+  "id": "a1b2c3d4-0002-0000-0000-000000000000",
+  "topic": "/subscriptions/0000/resourceGroups/rg/providers/Microsoft.Communication/communicationServices/charly",
+  "subject": "whatsapp/AR.13491208655302741918",
+  "data": {
+    "from": "",
+    "fromBSUID": "AR.13491208655302741918",
+    "to": "15550001111",
+    "receivedTimestamp": "2026-09-16T12:05:00.0000000Z",
+    "content": "hola",
+    "channelType": "whatsapp",
+    "messageId": "wamid.TEST.BSUID",
+    "messageType": "text"
+  },
+  "eventType": "Microsoft.Communication.AdvancedMessageReceived",
+  "eventTime": "2026-09-16T12:05:00.0000000Z",
+  "metadataVersion": "1",
+  "dataVersion": "1.0"
+}]

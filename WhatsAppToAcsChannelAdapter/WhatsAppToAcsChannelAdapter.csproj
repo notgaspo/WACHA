@@ -1,0 +1,24 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <LangVersion>latest</LangVersion>
+    <Nullable>disable</Nullable>
+    <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
+    <PackageId>WhatsAppToAcsChannelAdapter</PackageId>
+    <Description>Channel adapter que conecta Bot Framework v4 con WhatsApp a traves de Azure Communication Services (Advanced Messaging).</Description>
+  </PropertyGroup>
+
+  <!-- Necesario para ControllerBase y IApplicationBuilder sin ser un proyecto Web. -->
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Azure.Communication.Messages" Version="1.1.0" />
+    <PackageReference Include="Azure.Messaging.EventGrid" Version="5.0.0" />
+    <PackageReference Include="Azure.Messaging.EventGrid.SystemEvents" Version="1.1.0" />
+    <PackageReference Include="Microsoft.Bot.Builder.Integration.AspNet.Core" Version="4.22.0" />
+  </ItemGroup>
+
+</Project>
